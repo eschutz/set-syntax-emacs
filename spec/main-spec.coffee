@@ -10,15 +10,15 @@ describe 'Set Syntax', ->
       atom.packages.activatePackage('language-javascript')
 
     waitsForPromise ->
-      atom.packages.activatePackage('set-syntax')
+      atom.packages.activatePackage('set-syntax-emacs')
 
   describe 'activation', ->
     it 'adds the commands', ->
-      expect(hasCommand(workspaceElement, 'set-syntax:JavaScript')).toBeTruthy()
+      expect(hasCommand(workspaceElement, 'set-syntax-emacs:javascript-mode')).toBeTruthy()
 
   describe 'deactivation', ->
     beforeEach ->
-      atom.packages.deactivatePackage('set-syntax')
+      atom.packages.deactivatePackage('set-syntax-emacs')
 
     it 'removes the commands', ->
-      expect(hasCommand(workspaceElement, 'set-syntax:JavaScript')).toBeFalsy()
+      expect(hasCommand(workspaceElement, 'set-syntax-emacs:javascript-mode')).toBeFalsy()

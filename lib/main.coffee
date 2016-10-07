@@ -21,5 +21,5 @@ module.exports =
   createCommand: (grammar) ->
     if grammar?.name?
       workspaceElement = atom.views.getView(atom.workspace)
-      @disposables.add atom.commands.add workspaceElement, "set-syntax:#{grammar.name}", ->
+      @disposables.add atom.commands.add workspaceElement, "set-syntax-emacs:#{grammar.name.toLowerCase()}-mode", ->
         atom.workspace.getActiveTextEditor()?.setGrammar(grammar)

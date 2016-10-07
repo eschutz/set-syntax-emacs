@@ -1,17 +1,18 @@
 {
-  "name": "set-syntax",
-  "author": "Lee Dohm <lee@lee-dohm.com>",
+  "name": "set-syntax-emacs",
+  "author": "Elijah Schutz",
   "main": "./lib/main",
-  "version": "0.3.2",
-  "description": "Creates easy Command Palette commands for setting the syntax of the current file",
+  "version": "0.0.0",
+  "description": "Creates easy commands for setting the syntax of the current file, using Emacs 'language-mode' syntax. Originially created for use within the atom-console package.",
   "keywords": [
     "grammar",
     "syntax",
     "command",
-    "sublime",
-    "compatibility"
+    "emacs",
+    "compatibility",
+    "language"
   ],
-  "repository": "https://github.com/lee-dohm/set-syntax",
+  "repository": "https://github.com/eschutz/set-syntax-emacs",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"

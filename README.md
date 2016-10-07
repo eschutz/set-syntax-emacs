@@ -1,28 +1,20 @@
-# Set Syntax
-[![Build Status](https://travis-ci.org/lee-dohm/set-syntax.svg?branch=master)](https://travis-ci.org/lee-dohm/set-syntax)
-[![Dependency Status](https://david-dm.org/lee-dohm/set-syntax.svg)](https://david-dm.org/lee-dohm/set-syntax)
-[![apm](https://img.shields.io/apm/v/set-syntax.svg?maxAge=2592000)](https://atom.io/packages/set-syntax)
-[![apm](https://img.shields.io/apm/dm/set-syntax.svg?maxAge=2592000)](https://atom.io/packages/set-syntax)
+# Set Syntax (Emacs) package
+[![Build Status](https://travis-ci.org/eschutz/set-syntax-emacs.svg?branch=master)](https://travis-ci.org/eschutz/set-syntax-emacs)
+[![Build status](https://ci.appveyor.com/api/projects/status/ktkhrs6mplrhui4k/branch/master?svg=true)](https://ci.appveyor.com/project/eschutz/set-syntax-emacs/branch/master)
 
-The Set Syntax Atom package creates easy Command Palette entries for setting the syntax of the current file.
+The Set Syntax (Emacs) package fork of Lee Dohm's ['Set Syntax'](https://github.com/lee-dohm/set-syntax) package, specified for Emacs syntax.
 
-It is designed to make the transition to Atom easier for people migrating from Sublime Text by mimicking the method by which one changes the syntax of the current buffer in that editor.
+## History
+This package was created for use as a command in the [atom-console](https://github.com/eschutz/atom-console) package.
 
-## Usage
+## Key Bindings
 
-Simply use the way you're used to in Sublime Text!
-
-![Set Syntax demonstration](https://raw.githubusercontent.com/lee-dohm/set-syntax/master/set-syntax.gif)
-
-### Key Bindings
-
-There are no key bindings set by default, though you could set keys for specific languages that you use often. For example:
+As within the original package, there are no key bindings set by default, though you could set keys for specific languages that you use often. For example:
 
 ```coffee
 'atom-text-editor':
-  'alt-cmd-Z': 'set-syntax:ruby'
+  'alt-cmd-Z': 'set-syntax-emacs:Ruby-mode'
 ```
 
-## Copyright
-
-Copyright &copy; [Lee Dohm](http://www.lee-dohm.com) and [Lifted Studios](http://www.liftedstudios.com). See [LICENSE](https://github.com/lee-dohm/set-syntax/blob/master/LICENSE.md) for details.
+## License
+This package is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
