@@ -13,7 +13,7 @@ As within the original package, there are no key bindings set by default, though
 
 ```coffee
 'atom-text-editor':
-  'alt-cmd-Z': 'set-syntax-emacs:Ruby-mode'
+  'alt-cmd-Z': 'set-syntax-emacs:ruby-mode'
 ```
 
 ## License
