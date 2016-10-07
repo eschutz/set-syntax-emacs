@@ -2,7 +2,7 @@
   "name": "set-syntax-emacs",
   "author": "Elijah Schutz",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Creates easy commands for setting the syntax of the current file, using Emacs 'language-mode' syntax. Originially created for use within the atom-console package.",
   "keywords": [
     "grammar",
