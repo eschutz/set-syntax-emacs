@@ -6,7 +6,7 @@ node_js:
 before_script:
   - coffee --compile lib
 before_install:
-  - npm install coffee-script
+  - npm install -g coffee-script
 
 env:
   global:
