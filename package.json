@@ -1,20 +1,23 @@
 {
-  "name": "set-syntax-emacs",
-  "author": "Elijah Schutz",
-  "main": "./lib/main",
-  "version": "0.1.0",
-  "description": "Creates easy commands for setting the syntax of the current file, using Emacs 'language-mode' syntax. Originially created for use within the atom-console package.",
-  "keywords": [
-    "grammar",
-    "syntax",
-    "command",
-    "emacs",
-    "compatibility",
-    "language"
-  ],
-  "repository": "https://github.com/eschutz/set-syntax-emacs",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=0.174.0 <2.0.0"
-  }
+    "name": "set-syntax-emacs",
+    "author": "Elijah Schutz",
+    "main": "./lib/main",
+    "version": "0.1.0",
+    "description": "Creates easy commands for setting the syntax of the current file, using Emacs 'language-mode' syntax. Originially created for use within the atom-console package.",
+    "keywords": [
+        "grammar",
+        "syntax",
+        "command",
+        "emacs",
+        "compatibility",
+        "language"
+    ],
+    "repository": "https://github.com/eschutz/set-syntax-emacs",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=0.174.0 <2.0.0"
+    },
+    "devDependencies": {
+        "coffee-script": "latest"
+    }
 }
