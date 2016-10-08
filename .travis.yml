@@ -1,7 +1,12 @@
 ### Project specific config ###
-language: objective-c
+language: node_js
 node_js:
   - node
+
+before_script:
+  coffee --compile -o lib src
+before_install:
+  - npm install coffee-script
 
 env:
   global:
